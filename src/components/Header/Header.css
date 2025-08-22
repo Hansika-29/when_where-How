@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Updated selector to target the Link component */
+.logo-section {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Removes the underline from the link */
+  color: inherit; /* Inherits the color from the parent, so it looks like plain text */
+}
+
+.logo {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.app-title {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Container for the new Home button and Logout button */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Adds space between the buttons */
+}
+
+.home-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #3498db;
+  background-color: transparent;
+  color: #3498db;
+  border-radius: 5px;
+  text-decoration: none; /* Removes the underline */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.home-btn:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.logout-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}

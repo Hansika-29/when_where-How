@@ -1,0 +1,26 @@
+.subtopic-page {
+  padding: 2rem;
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem;
+}
+
+.subtopic-page h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  border-bottom: 4px solid #f39c12;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.subtopic-page p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.subtopic-page p:first-of-type {
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,15 @@
+/* src/components/SubjectSection/SubjectSection.css */
+
+.subject-section {
+  margin-bottom: 2.5rem;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  border-bottom: 3px solid #f39c12;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Remove the .card-container styling as it is no longer needed */
